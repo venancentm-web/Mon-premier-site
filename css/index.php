@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympia Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="js/app.js"></script>
+    <link 
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet"
+         rel="stylesheet">
+    <title>olympemarket</title>     
+</head>
+<body>
+    <div class="loader" id="loader">
+        <p>Chargement...</p>
+    </div>
+    <header>
+        <a href="/">
+            <img src="img/logo.jpg" alt="Logo Olympia Market">
+        </a>
+        <a href="/">Olympia Market</a>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">A propos</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </header>
+
+    <div class="page-main">
+        <div class="bienvenue" id="accueil">
+            <img src="img/acceuile.jpg" alt="Image d'accueil">
+            <div>
+                <h1>
+                    Ne vous contentez plus de l'ordinaire.<br>
+                    Passez à l'achat et bénéficiez de nos offres.
+                </h1>
+                <p>
+                    Bienvenue sur Olympe Market, la marketplace qui connecte vendeurs et
+                    acheteurs. Découvrez des milliers de produits, profitez de paiements
+                    sécurisés avec OlympePay et vivez une expérience d'achat simple, rapide
+                    et fiable.
+                </p>
+                <a href="#">Je découvre les offres</a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="a-propos" id="a-propos">
+            <h2 class="title-category">À Propos</h2>
+            <div class="picture-propos">
+                <div class="infos-picture-propos">
+                    <div class="picture-propos-text">
+                        <h3>Olympia Market</h3>
+                        <p>
+                            Chez Olympe Market, nous facilitons l'achat et la vente en ligne
+                            grâce à une plateforme simple, rapide et sécurisée.
+                            Notre objectif est d'offrir une expérience fiable où chacun peut
+                            trouver des produits de qualité au meilleur prix tout en effectuant
+                            ses transactions en toute confiance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="contacts" id="contacts">
+            <h2 class="title-category">Contacts</h2>
+            <div class="form-contacts-container">
+                <form action="contct.php" method="post" class="form-contacts">
+                    <div class="form-top">
+                        <div class="form-left">
+                            <div>
+                                <label for="nom">Nom complet</label>
+                                <input type="text" id="nom" name="nom" placeholder="Venance Clavere">
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="exemple@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-right">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" cols="30" rows="5" placeholder="Je vous contacte pour..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+        <div class="commentaires" id="commentaires">
+            <h2 class="title-category">Commentaires</h2>
+            <div class="commentaire">
+                <img src="img/commentaire (2).jpg" alt="Photo de Sophia" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Sophia.A</h3>
+                    <p class="commentaire-message">
+                        « Une excellente plateforme ! J'ai trouvé exactement ce que je
+                        cherchais et la livraison a été rapide. Je recommande sans hésiter. »
+                    </p>
+                </div>
+            </div>
+            <div class="commentaire">
+                <img src="img/commentaire (2).jpg" alt="Photo de Jean" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Jean.M</h3>
+                    <p class="commentaire-message">
+                        « Interface simple, produits de qualité et paiement sécurisé.
+                        Mon expérience sur Olympe Market a été très satisfaisante. »
+                    </p>
+                </div>
+            </div>
+            <div class="commentaire">
+                <img src="img/commentaire (2).jpg" alt="Photo de Clarisse" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Clarisse D.</h3>
+                    <p class="commentaire-message">
+                        « Le service client est réactif et très professionnel.
+                        Je reviendrai pour mes prochains achats. »
+                    </p>
+                </div>
+            </div>
+            <div class="commentaire">
+                <img src="img/commentaire (2).jpg" alt="Photo de Venance" class="commentaire-pp">
+                <div class="commentaire-text">
+                    <h3 class="commentaire-nom">Venance.B</h3>
+                    <p class="commentaire-message">
+                        « Les prix sont compétitifs et le site est facile à utiliser.
+                        Une très bonne expérience d'achat. »
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="separator"></div>
+        <div class="reference">
+            <ul>
+                <li>📍 Adresse : Abomey-Calavi, Bénin</li>
+                <li>📧 E-mail : contact@olympemarket.com</li>
+                <li>📞 Téléphone : +229 0199422865</li>
+                <li>🕒 Horaires : Lundi – Samedi : 8h00 à 18h00</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
